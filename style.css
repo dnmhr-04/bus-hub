@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 1;
+    padding: 1;
+    background-color: black; /* Black background */
+    color: white; /* White text for readability on black */
+}
+
+
+nav {
+    background-color: black; /* Black background for nav */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #ffa31a; /* Orange text for nav links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: orange; /* Orange background on hover */
+    color: black; /* Black text on hover */
+}
+
+#about-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1a1a1a; /* Darker black for content area */
+    border: 5px solid #ffa31a; /* Orange border */
+    border-radius: 5px;
+}
+
+h1, h3 {
+  color: #ff8c00;
+  font-family:sans-serif;
+}
+<a {
+  color: #ff8c00; /* Dark orange links */
+}
+
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+}
